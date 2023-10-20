@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools", "wheel"] 
+
+[[project.authors]]
+name = "Andy Zhou"
+email = "andyz3@illinois.edu"
+
+[project.license]
+text = "MIT"
+
+[project]
+name = "lats"
+version = "0.1.0"
+description = "Official Implementation of \"Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models\""
+readme = "README.md"
+
+keywords = [
+    "decision-making",
+    "language-agent-tree-search",
+    "large-language-models",
+    "llm",
+    "prompting",
+    "reasoning",
+    "tree-search",
+]
+
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "accelerate",
+    "aiohttp==3.8.4",
+    "aiosignal==1.3.1",
+    "astunparse==1.6.3",
+    "async-timeout==4.0.2",
+    "attrs==23.1.0",
+    "backoff==2.2.1",
+    "certifi==2023.5.7",
+    "charset-normalizer==3.1.0",
+    "datasets==2.7.0",
+    "frozenlist==1.3.3",
+    "gym",
+    "idna==3.4",
+    "jsonlines==3.1.0",
+    "mpmath==1.3.0",
+    "multidict==6.0.4",
+    "numpy==1.24.3",
+    "openai==0.27.7",
+    "pandas==2.0.3",
+    "requests==2.31.0",
+    "setuptools",
+    "sympy==1.12",
+    "tenacity==8.1.0",
+    "torch",
+    "tqdm==4.65.0",
+    "transformers",
+    "urllib3==2.0.2",
+    "xformers",
+    "yarl==1.9.2",
+]
+
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/andyz245/LanguageAgentTreeSearch"
+"Bug Tracker" = "https://github.com/andyz245/LanguageAgentTreeSearch/issues"

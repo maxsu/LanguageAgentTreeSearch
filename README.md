@@ -17,27 +17,24 @@ More can be found at our [project website](https://andyz245.github.io/LanguageAg
 
 Check out our demo, CodeLATS at our [demo](https://huggingface.co/spaces/AIatUIUC/CodeLATS/tree/main)
 
+### Setup
+
+To get started:
+
+1. Install the `lats` package:
+
+```bash
+pip install lats
+```
+
+2. Set `OPENAI_API_KEY` environment variable to your OpenAI API key:
+```bash
+export OPENAI_API_KEY=<your key>
+```
 
 ### Reasoning + Acting (HotPotQA)
 
 #### Setup
-
-To get started:
-
-1. Clone this repo and move to the HotPotQA directory:
-```bash
-git clone https://github.com/andyz245/LanguageAgentTreeSearch && cd LanguageAgentTreeSearch/hotpot
-```
-
-2. Install the module dependencies into your environment:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set `OPENAI_API_KEY` environment variable to your OpenAI API key:
-```bash
-export OPENAI_API_KEY=<your key>
-```
 
 4. Set the scripts and run paper experiments
 ```bash
@@ -50,24 +47,6 @@ sh lats.sh
 
 ### Reasoning (Programming)
 
-#### Setup
-
-To get started:
-
-1. Clone this repo and move to the HotPotQA directory:
-```bash
-git clone https://github.com/andyz245/LanguageAgentTreeSearch && cd LanguageAgentTreeSearch/programming
-```
-
-2. Install the module dependencies into your environment:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set `OPENAI_API_KEY` environment variable to your OpenAI API key:
-```bash
-export OPENAI_API_KEY=<your key>
-```
 
 4. Set the scripts and run paper experiments
 ```bash
@@ -78,26 +57,7 @@ Code adapted from https://github.com/noahshinn024/reflexion/tree/main
 
 ### Decision-making (WebShop)
 
-#### Setup
-
-To get started:
-
-1. Clone this repo and move to the WebShop directory:
-```bash
-git clone https://github.com/andyz245/LanguageAgentTreeSearch && cd LanguageAgentTreeSearch/webshop
-```
-
 2. Install WebShop from source and run environment instance locally. Follow the instructions here (https://github.com/princeton-nlp/WebShop)
-
-3. Install the module dependencies into your environment:
-```bash
-pip install -r requirements.txt
-```
-
-4. Set `OPENAI_API_KEY` environment variable to your OpenAI API key:
-```bash
-export OPENAI_API_KEY=<your key>
-```
 
 5. Change localhost in lats.py to your local port running WebShop
 
